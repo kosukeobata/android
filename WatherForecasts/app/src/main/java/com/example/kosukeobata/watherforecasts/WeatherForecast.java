@@ -5,8 +5,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 public class WeatherForecast {
 
@@ -27,6 +30,7 @@ public class WeatherForecast {
             forecastList.add(forecast);
         }
     }
+
 
     public class Location {
         public final String area;

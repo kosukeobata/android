@@ -6,7 +6,14 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.json.JSONArray;
+import org.w3c.dom.Document;
+
+import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -39,6 +46,8 @@ public class MyActivity extends ActionBarActivity {
             return pointList.size();
         }
     }
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
