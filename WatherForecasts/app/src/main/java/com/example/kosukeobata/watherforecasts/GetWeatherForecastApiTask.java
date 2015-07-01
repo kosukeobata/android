@@ -18,7 +18,11 @@ public class GetWeatherForecastApiTask extends AsyncTask<String, Void, WeatherFo
     @Override
     protected WeatherForecast doInBackground(String... params) {
         try {
+<<<<<<< HEAD
             return WeatherApi.getWeather(context, params[0]);
+=======
+            return WeatherApi3.getWeather(context, params[0]);
+>>>>>>> 90e3125dfeaaaad3c8f2dd967bff58a9d4fde4b0
         } catch (IOException e) {
             exception = e;
         } catch (JSONException e) {

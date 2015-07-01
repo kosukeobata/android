@@ -1,5 +1,6 @@
 package com.example.kosukeobata.watherforecasts;
 
+<<<<<<< HEAD
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ProgressBar;
@@ -79,6 +80,72 @@ public class MyActivity extends Activity {
     }
 
 
+=======
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.json.JSONArray;
+import org.w3c.dom.Document;
+
+import java.io.ByteArrayInputStream;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class MyActivity extends ActionBarActivity {
+
+    private static final String[] POINT_LIST = {
+            "270000",
+            "130010",
+            "040010"};
+
+    private List<String> pointList;
+
+    private Adapter adapter;
+    private ViewPager viewPager;
+
+    private class Adapter extends FragmentStatePagerAdapter {
+
+        public Adapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return FragmentWeather.newInstance(pointList.get(position));
+        }
+
+        @Override
+        public int getCount() {
+            return pointList.size();
+        }
+    }
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_my);
+
+        if (pointList == null) {
+            pointList = Arrays.asList(POINT_LIST);
+
+        }
+
+        viewPager = (ViewPager) findViewById(R.id.vp_main);
+        adapter = new Adapter(getSupportFragmentManager());
+        viewPager.setAdapter(adapter);
+    }
+}
+>>>>>>> 90e3125dfeaaaad3c8f2dd967bff58a9d4fde4b0
 
 //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
@@ -101,4 +168,7 @@ public class MyActivity extends Activity {
 //
 //        return super.onOptionsItemSelected(item);
 //    }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 90e3125dfeaaaad3c8f2dd967bff58a9d4fde4b0
