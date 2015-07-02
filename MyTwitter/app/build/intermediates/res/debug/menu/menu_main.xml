@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_refresh"/>
+
+    <item
+        android:id="@+id/menu_tweet"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/menu_tweet"/>
+
+</menu><!-- From: file:/Users/kosuke.obata/AndroidStudioProjects/MyTwitter/app/src/main/res/menu/menu_main.xml -->

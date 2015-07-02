@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kosuke.obata/AndroidStudioProjects/MyTwitter/app/libs/android-smart-image-view-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d76ea8c3e9a60101244d6d04aff8cc75888570f0">
+        <dex dex="/Users/kosuke.obata/AndroidStudioProjects/MyTwitter/app/build/intermediates/pre-dexed/debug/android-smart-image-view-1.0.0-e80b6bf2f3ac109cc2e7c7e68d9abf1f2f9d72ed.jar" />
+    </item>
+    <item
+        jar="/Users/kosuke.obata/AndroidStudioProjects/MyTwitter/app/libs/twitter4j-core-4.0.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f4ac5989c7be37249dfe310bf78ba69773ebce2d">
+        <dex dex="/Users/kosuke.obata/AndroidStudioProjects/MyTwitter/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.4-f52d0e8323feb44ed88c7664117c8388289fda8b.jar" />
+    </item>
+
+</items>
