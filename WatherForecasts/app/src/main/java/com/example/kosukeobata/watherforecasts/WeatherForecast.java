@@ -5,18 +5,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-<<<<<<< HEAD
+
 import java.util.ArrayList;
 import java.util.List;
 
-=======
-import java.io.ByteArrayInputStream;
-import java.util.ArrayList;
-import java.util.List;
-
-
-
->>>>>>> 90e3125dfeaaaad3c8f2dd967bff58a9d4fde4b0
 public class WeatherForecast {
 
     public final Location location;
@@ -37,10 +29,6 @@ public class WeatherForecast {
         }
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 90e3125dfeaaaad3c8f2dd967bff58a9d4fde4b0
     public class Location {
         public final String area;
         public final String prefecture;

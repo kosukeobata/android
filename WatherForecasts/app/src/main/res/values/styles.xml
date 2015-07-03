@@ -1,11 +1,9 @@
 <resources>
 
     <!-- Base application theme. -->
-<<<<<<< HEAD
-    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-=======
+
     <style name="AppTheme" parent="Theme.AppCompat.Light">
->>>>>>> 90e3125dfeaaaad3c8f2dd967bff58a9d4fde4b0
+
         <!-- Customize your theme here. -->
     </style>
 
